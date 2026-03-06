@@ -1,0 +1,27 @@
+.minimal-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid var(--TercerColor);
+  color: var(--TextoClaro);
+  padding: 5px 0;
+  transition: border-color 0.3s;
+  width: 100%;
+}
+
+.minimal-input:focus {
+  outline: none;
+  border-bottom-color: var(--PrimerColor);
+}
+
+.btn-minimal {
+  background: none;
+  border: none;
+  color: var(--TextoClaro);
+  font-size: 1.2rem;
+  transition: transform 0.2s;
+}
+
+.btn-minimal:hover {
+  color: var(--PrimerColor);
+  transform: scale(1.1);
+}

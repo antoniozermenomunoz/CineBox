@@ -1,7 +1,11 @@
+import { PagePeliculas } from "./Pages/PagePeliculas";
+import { Header } from "./Components/Header";
+
 function App() {
   return (
     <>
-      <h1>Hola</h1>
+      <Header />
+      <PagePeliculas />
     </>
   );
 }
