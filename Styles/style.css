@@ -1,0 +1,15 @@
+:root {
+  --PrimerColor: #e50914;
+  --SegundoColor: #ffc107;
+  --TercerColor: #2f2f2f;
+  --FondoNegro: #141414;
+  --FondoBlanco: #ffffff;
+  --TextoClaro: #ffffff;
+  --TextoOscuro: #808080;
+}
+
+body {
+  background-color: var(--FondoNegro);
+  color: var(--TextoClaro);
+  font-family: "Inter", sans-serif;
+}
