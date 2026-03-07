@@ -1,6 +1,6 @@
 const API_KEY = "4287ad07";
 
-export const searchMovies = async ({ search }) => {
+export const ConsultarPelicula = async (search) => {
   if (search === "") return null;
 
   try {
@@ -18,6 +18,7 @@ export const searchMovies = async ({ search }) => {
       image: movie.Poster,
     }));
   } catch (e) {
-    throw new Error(e);
+    console.log(e);
+    throw new Error("Error searching movies");
   }
 };
